@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\AABB_Tree">
+      <UniqueIdentifier>{01f3a7cf-88ce-47bb-870f-3b36ec91b705}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Math">
+      <UniqueIdentifier>{63f0e015-9126-475d-850c-87726d2ab337}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\PolyMesh">
+      <UniqueIdentifier>{53f60fcd-b935-4be4-b225-2218e1a5c816}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\src">
+      <UniqueIdentifier>{506ff738-1b4e-4625-b0a2-fd2b1e582f1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AABB_Tree\AABB_Tree.h">
+      <Filter>头文件\AABB_Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB_Tree\TinyVector.h">
+      <Filter>头文件\AABB_Tree</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Massage.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MPoint3.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Mrgb.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\MVector3.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyMesh\IOManager.h">
+      <Filter>头文件\PolyMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyMesh\MemoryPool.h">
+      <Filter>头文件\PolyMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyMesh\PolyMesh.h">
+      <Filter>头文件\PolyMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyMesh\PolyMesh_Base.h">
+      <Filter>头文件\PolyMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="PolyMesh\PolyMeshIterators.h">
+      <Filter>头文件\PolyMesh</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Algorithms.h">
+      <Filter>头文件\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Algorithm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AABB_Tree.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="IOManger.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyMesh.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyMesh_Base.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="PolyMeshIterators.cpp">
+      <Filter>源文件\src</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Algorithm.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
